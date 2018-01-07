@@ -1,0 +1,40 @@
+{
+    "Name" : "dBaseEditor",
+    "Version" : "4.5.0",
+    "CompatVersion" : "4.5.0",
+    "Vendor" : "Jens Kallup",
+    "Copyright" : "(c) 2018 KALLUP non-profit Software",
+    "License" : [ "non-profit",
+                  "",
+                  "",
+                  "",
+                  "GNU General Public License Usage",
+                  "",
+                  ""
+    ],
+    "Category" : "Other Languages",
+    "Description" : "Editor and file creation wizards for dBase.",
+    "Url" : "http://www.kallup.org",
+    "Dependencies" : [
+        { "Name" : "Core", "Version" : "4.5.0" },
+        { "Name" : "TextEditor", "Version" : "4.5.0" },
+        { "Name" : "QtSupport", "Version" : "4.5.0" },
+        { "Name" : "ProjectExplorer", "Version" : "4.5.0" }
+    ],
+    "Mimetypes" : [
+        "<?xml version='1.0'?>",
+        "<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>",
+        "    <mime-type type='text/x-dbase-gui'>",
+        "        <sub-class-of type='text/x-dbase'/>",
+        "        <comment>dBase source file without console</comment>",
+        "        <glob pattern='*.dbgprj'/>",
+        "    </mime-type>",
+        "    <mime-type type='text/x-dbase-project'>",
+        "        <sub-class-of type='text/x-dbase'/>",
+        "        <comment>Qt Creator dBase project file</comment>",
+        "        <glob pattern='*.dbcprj'/>",
+        "    </mime-type>",
+        "</mime-info>"
+    ]
+}
+
