@@ -1,0 +1,2 @@
+# QtPluginEditor
+plugin test
